@@ -1,19 +1,22 @@
 {
-  "name": "cardling",
-  "version": "1.0.0",
-  "description": "App for language flashcards",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zitj/cardling.git"
-  },
-  "author": "Александар Вељковић",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zitj/cardling/issues"
-  },
-  "homepage": "https://github.com/zitj/cardling#readme"
+	"name": "cardling",
+	"version": "1.0.0",
+	"description": "App for language flashcards",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zitj/cardling.git"
+	},
+	"author": "Александар Вељковић",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zitj/cardling/issues"
+	},
+	"homepage": "https://github.com/zitj/cardling#readme",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
 }
